@@ -29,9 +29,9 @@
 						</div>
 					</div>
 				</div>
-				<div class="imgBox c_flex_wrap">
-					<img src="@/assets/images/project/tonpay/overview01.png" alt="harut app screen" />
-					<img src="@/assets/images/project/tonpay/overview02.png" alt="harut app screen" />
+				<div class="imgBox">
+					<img src="@/assets/images/project/tonpay/overview01.png" alt="tonpay screen" />
+					<img src="@/assets/images/project/tonpay/overview02.png" alt="tonpay screen" />
 				</div>
 			</div>
 		</section>

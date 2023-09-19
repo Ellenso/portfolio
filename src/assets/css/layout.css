@@ -353,6 +353,17 @@
     object-fit: contain;
 }
 @media screen and (max-width: 600px) {
+    .projectDetail.tonpay .overview .imgBox {
+        height: unset;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .projectDetail.tonpay .overview .imgBox img {
+        position: unset;
+        max-width: unset;
+     
+    }
     .projectDetail.tonpay .gui .imgWrap {
         width: calc(( 100% - (6rem*2) )/3);
     }
@@ -376,10 +387,10 @@
 .projectDetail.nuovoseoul .persona .c_flex_wrap {
     justify-content: space-between;
     align-items: flex-start;
-    gap: 10rem;
+    gap: 6rem;
 }
 .projectDetail.nuovoseoul .persona .c_flex_wrap .flexBox {
-    width: calc((100% - 10rem)/2);
+    width: calc((100% - 6rem)/2);
 }
 .projectDetail.nuovoseoul .persona .c_flex_wrap .flexBox:nth-child(2) {
     margin-top: 20rem;
